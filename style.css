@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    background: #000000 url("images/background.jpg") fixed;
+}
+main {
+    margin: auto;
+    background-color: #ffffffd7;
+    max-width: 1000px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
