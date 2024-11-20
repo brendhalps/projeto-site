@@ -2,11 +2,42 @@
 body {
     background: #000000 url("images/background.jpg") fixed;
 }
+* {
+    margin: 0px;
+    padding: 0px;
+}
 main {
-    margin: auto;
     background-color: #ffffffd7;
-    max-width: 1000px;
-    padding: 50px;
-    border: 1px solid black;
+    max-width: 100%;
     border-radius: 10px;
+    margin: auto;
+}
+main h1 {
+    padding: 10px;
+}
+main p {
+    padding: 10px;
+}
+main img {
+    width: 100%;
+}
+article > img {
+    width: 40%;
+}
+article.a1 > h1 {
+    text-align: right;
+}
+article.a2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+article.a2 > img {
+    height: auto;
+}
+article.a3 {
+    text-align: center;
+}
+article.a3 > img {
+    width: 100%;
 }
