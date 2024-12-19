@@ -1,13 +1,10 @@
 @charset "UTF-8";
-body {
-    background: #000000 url("images/background.jpg") fixed;
-}
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 main {
-    background-color: #ffffffd7;
+    background-color: #ffffff;
     max-width: 100%;
     border-radius: 10px;
     margin: auto;
@@ -18,16 +15,31 @@ main h1 {
 main p {
     padding: 10px;
 }
-main img {
+header {
+    background-color: #000000;
+}
+header > img {
     width: 100%;
 }
 article > img {
+    padding: 30px;
     width: 40%;
 }
+article.a1 {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
 article.a1 > h1 {
-    text-align: right;
+    text-align: justify;
+}
+article.a1 > img {
+    float: left;
 }
 article.a2 {
+    background: linear-gradient(to bottom, white 50%, #bd4141 50%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,4 +52,6 @@ article.a3 {
 }
 article.a3 > img {
     width: 100%;
+    padding: 0px;
+    background-size: cover;
 }
