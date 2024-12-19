@@ -1,3 +1,1 @@
-Projeto Site (em desenvolvimento)
-
-Link: https://breendsz.github.io/site/
+https://breendsz.github.io/site/
