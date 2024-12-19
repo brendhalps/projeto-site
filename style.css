@@ -39,7 +39,7 @@ article.a1 > img {
     float: left;
 }
 article.a2 {
-    background: linear-gradient(to bottom, white 50%, #bd4141 50%);
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
