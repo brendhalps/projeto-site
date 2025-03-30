@@ -15,8 +15,12 @@ main h1 {
 main p {
     padding: 10px;
 }
-header {
+header > ul {
+    display: flex;
     background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 header > img {
     width: 100%;
@@ -25,33 +29,38 @@ article > img {
     padding: 30px;
     width: 40%;
 }
-article.a1 {
+article.aboutMe {
     display: flex;
     background-color: #000000;
     color: white;
     justify-content: space-between;
     align-items: center;
 }
-article.a1 > h1 {
+article.aboutMe > h1 {
     text-align: justify;
 }
-article.a1 > img {
+article.aboutMe > img {
     float: left;
 }
-article.a2 {
+article.social {
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-article.a2 > img {
+article.social > img {
     height: auto;
 }
-article.a3 {
+article.projects {
     text-align: center;
 }
-article.a3 > img {
+article.projects > img {
     width: 100%;
-    padding: 0px;
     background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+footer {
+    text-align: center;
+    font-family: sans-serif;
 }
